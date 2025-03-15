@@ -12,19 +12,29 @@ export default function CoursePage() {
             <main>
                 <ul>
                     <li>
-                        <Link href={'/course/course-details/course-1'} > Course 1</Link>
+                        <Link href={'/course/course-details/course-1'} >
+                            Course 1
+                        </Link>
                     </li>
                     <li>
-                        <Link href={'/course/course-details/course-2'} > Course 2</Link>
+                        <Link href={'/course/course-details/course-2'} >
+                            Course 2
+                        </Link>
                     </li>
                     <li>
-                        <Link href={'/course/course-details/course-3'} > Course 3</Link>
+                        <Link href={'/course/course-details/course-3'} >
+                            Course 3
+                        </Link>
                     </li>
                     <li>
-                        <Link href={'/course/course-details/course-4'} > Course 4</Link>
+                        <Link href={'/course/course-details/course-4'} >
+                            Course 4
+                        </Link>
                     </li>
                     <li>
-                        <Link href={'/course/course-details/course-5'} > Course 5</Link>
+                        <Link href={'/course/course-details/course-5'} >
+                            Course 5
+                        </Link>
                     </li>
                 </ul>
             </main>
@@ -42,11 +52,8 @@ export default function CoursePage() {
                 </div>
             </main>
         </>
-
-
     )
 }
 
 {/* <Image alt='pic' fill src={image.src} /> */ }
 {/* <img src={image.src} /> */ }
-
